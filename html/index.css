@@ -64,5 +64,24 @@ figcaption{
     color: white;
    text-shadow: 2px 2px 3px black;
 }
-
+footer{
+    text-align: center;
+    margin: auto;
+    padding:20px ;
+}
+@media(max-width:640px){
+    #logo-name{
+        display: none;
+    }
+  h1{
+    font-size: 1.5em !important;    
+}
+h5{
+    font-size: 1em !important;
+}
+.main,.info{
+    font-size: 10px !important;
+    line-height: 20px !important;
+}
+}
 
